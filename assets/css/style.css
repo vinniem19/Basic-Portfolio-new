@@ -1,9 +1,39 @@
+body {
+    width: 960px;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #eff3eb;
+    background: white;
+    
+}
+
 #logo {
-        background-color: aqua;
-        width: 20 px;
+        float: left;
+        height: 30px;
+        width: 50px;
+        background-color: white;
+        margin: 2,2,2,2;
+        padding: 0;
+        text-decoration: none;
 }
 
 h1 {
-    color: teal;
+    color: #008080;
 }
 
+ul .navigation {
+    list-style-type: none;
+    margin: 5;
+    padding: 0;
+    color: grey;
+}
+.wrapper {
+    width: 960px;
+}
+
+img {
+    height: 150px;
+    width:  100px;
+}
