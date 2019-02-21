@@ -1,14 +1,20 @@
 
 header {
+    height: 50px;
+    width: 960px;
+    margin: 5px;
+    padding: 0;
 
 }
 
 .logo {
+    float: left;
+    background-color: #4aaaa5;
 
     }
 
 nav {
-
+    float: right;
 }
 
 body {
@@ -20,16 +26,18 @@ body {
     color: #eff3eb;
     background: white;
 }
+
 .wrapper {
 
 }
 
 h1 {
-
+    color: #4aaaa5
 }
 
 img {
-
+    height: 400px;
+    width:  300px;
 }
 
 p {
