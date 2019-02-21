@@ -9,22 +9,26 @@ header {
 
 .logo {
     float: left;
-    font-size: 100%;
+    font-size: 48px;
     background-color: #4aaaa5;
-    height: 100px;
+    height: 50px;
     width: 200px;
+    text-decoration: none;
 
     }
 
-nav {
+#logoname {
+
+    text-decoration: none;
+} 
+
+a {
+    margin: 25px;
+    text-decoration: none;
+}
+.navbar {
     float: right;
-    position: relative;
-    background-color: azure;
-    }
 
-nav li a {
-    display: inline;
-    
 }
 
 .clearfix::after {
@@ -41,10 +45,6 @@ body {
     background: white;
 }
 
-.wrapper {
-
-}
-
 h1 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -53,8 +53,8 @@ h1 {
 }
 
 img {
-    height: 400px;
-    width:  300px;
+    height: 300px;
+    width:  250px;
     float: left;
     margin: 5px;
 }
@@ -63,12 +63,14 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
-.footer {
+
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    height: 10%;
     width: 100%;
-    background-color: red;
+    background-color: black;
     color: white;
     text-align: center;
   }
@@ -84,9 +86,16 @@ p {
 
 #message {
     display: block;
+    grid-area: span;
 }
 form {
     float: left;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: ;
+    display: inline;
+}
 
