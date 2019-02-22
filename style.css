@@ -25,6 +25,8 @@ width: 960px;
     font-size: 48px;
     border-radius: 16%;
     background-color: #4aaaa5;
+    margin-left: 76px;
+    margin-top: 5px;
 
     }
 
@@ -58,7 +60,7 @@ body {
     margin: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
-    background-image: url(lightgrey.png)
+    background-image: url(light_grey.png)
     }
 
 .content {
