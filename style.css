@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 header {
     height: 50px;
     width: 960px;
@@ -7,16 +9,24 @@ header {
 
 }
 .wrapper {
-    width: 600px;
-    margin: 0 auto 0 auto;
-    padding: 20px;
+    width: 960px;
+    margin-left: 40px;
+    padding: 30px;
+    background: tan;
+}
+
+#content {
+width: 960px;
+
+
 }
 .logo {
     float: left;
     font-size: 48px;
+    border-radius: 16%;
     background-color: #4aaaa5;
-    margin-top: 50px;
-    margin-left: 200px;
+    margin-top: 8px;
+    margin-left: 203px;
     height: 50px;
     width: 200px;
     text-decoration: none;
@@ -40,6 +50,7 @@ a {
 }
 .navbar {
     float: right;
+    padding-top: 30px;
 
 }
 /* This is a clearfix */
@@ -54,19 +65,18 @@ body {
     margin: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
-    background: white;
-}
+    background-image: url(lightgrey.png)
+    }
+
 .content {
     width: 960px;
     margin: 0 auto;
 }
 
-.wrapper {
 
-}
 
 h1 {
-
+    clear: left;
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 36px;
@@ -78,6 +88,7 @@ img {
     width:  250px;
     float: left;
     margin: 5px;
+
 }
 
 p {
