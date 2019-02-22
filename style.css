@@ -25,13 +25,6 @@ width: 960px;
     font-size: 48px;
     border-radius: 16%;
     background-color: #4aaaa5;
-    margin-top: 8px;
-    margin-left: 203px;
-    height: 50px;
-    width: 200px;
-    text-decoration: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
 
     }
 
@@ -123,12 +116,5 @@ footer {
 }
 form {
     float: left;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: ;
-    display: inline;
 }
 
