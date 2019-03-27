@@ -9,14 +9,21 @@ header {
 
 }
 .wrapper {
-    width: 960px;
+    width: 100%;
+    min-height: 100%;
+    margin-top: 50px;
     margin-left: 40px;
-    padding: 30px;
+    margin-right: auto;
+    margin-bottom:5px;
+    padding: 30px 10px;
     background: tan;
+    overflow: hidden;
+    
+    
 }
 
 #content {
-width: 960px;
+width: 100%;
 
 
 }
@@ -48,11 +55,11 @@ a {
     padding-top: 30px;
 
 }
-/* This is a clearfix */
-/* .clearfix::after { */
-    /* content: ""; */
-    /* clear: both; */
-   /* } */
+
+ .clearfix::after { 
+    content: "";
+    clear: both;
+    } 
 
 body {
     width: 960px;
