@@ -90,7 +90,15 @@ img {
     width:  250px;
     float: left;
     margin: 5px;
+    border-radius: 15%;
 
+}
+
+.portfolio-img {
+    height: 250px;
+    width:  250px;
+    float: left;
+    margin: 5px;
 }
 
 p {
