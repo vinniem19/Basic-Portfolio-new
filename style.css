@@ -175,6 +175,12 @@ body {
     margin-top: 10px;
     margin-right: 25px;
   }
+
+  .portfolio-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+  }
   
   /* contact page */
   
@@ -264,10 +270,7 @@ body {
          padding: 0;
     }
   
-    #main-container {
-      width:
-      height:
-    }
+    
   }
   
   @media screen and (max-width: 640px) {
